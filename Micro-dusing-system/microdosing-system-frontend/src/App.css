@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Light Mode (Default) */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Dark Mode */
+  .dark-mode body {
+    background-color: #121212; /* Dark Background */
+    color: white;
+  }
+  
+  /* Navbar, Sidebar, and Containers */
+  .dark-mode .sidebar,
+  .dark-mode .navbar,
+  .dark-mode .content {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  /* Buttons */
+  .dark-mode button {
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+  }
+  
