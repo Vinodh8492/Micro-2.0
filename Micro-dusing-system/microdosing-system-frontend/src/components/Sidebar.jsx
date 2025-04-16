@@ -32,6 +32,7 @@ export default function Sidebar() {
     { path: "/orders", icon: FaShoppingCart, label: "Orders" },
     { path: "/activeorders", icon: FaShoppingCart, label: "Active Orders" },
     { path: "/batches", icon: FaLayerGroup, label: "Batches" },
+    { path: "/formula-details", icon: FaLayerGroup, label: "Formula Details" }
   ];
 
   // Conditionally show Admin panel only for admin users

@@ -28,6 +28,7 @@ import ViewRecipe from "./pages/ViewRecipe";
 import Bucket_Batches from "./pages/Bucket_Batches";
 import ViewMaterial from "./pages/ViewMaterial";
 import CreateStorageBucketForm from "./pages/CreateStorageBucketForm"; // Adjust path as necessary
+import FormulaDetails from "./pages/FormulaDetails";
 
 // Layout component for shared UI like Sidebar/Topbar
 function Layout({ children }) {
@@ -73,6 +74,7 @@ function AppRoutes() {
         <Route path="/storage" element={<Bucket_Batches />} />
         <Route path="/login" element={<Login />} />
         <Route path="/create-storage" element={<CreateStorageBucketForm />} />
+        <Route path="/formula-details" element={<FormulaDetails />} />
       </Routes>
     </Layout>
   );
